@@ -9,6 +9,11 @@ Pic, Short Bio
 
 List of Projects with links to videos, deployed apps, github
 
+- Music Landing Page (deployed link, github)
+- UNISON project (video, github)
+- Setbuilder (video, github)
+- Frame (video, github)
+
 
 ## `Contact`
 
