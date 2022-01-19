@@ -1,6 +1,12 @@
-import '../App.css';
+
+// Components
 import { Menu } from 'antd';
 import React, { useState } from 'react';
+
+// Styles
+import '../App.css';
+import styles from '../styles.less';
+
 
 import { BookOutlined } from '@ant-design/icons';
 
@@ -17,7 +23,8 @@ const Header = () => {
             theme={'dark'}
             onClick={handleClick} 
             selectedKeys={current} 
-            mode="horizontal">
+            mode="horizontal"
+            style={styles.menu}>
                 <Menu.Item key="about" icon={<BookOutlined />}>
                     About
                 </Menu.Item>
