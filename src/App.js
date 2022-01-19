@@ -4,18 +4,15 @@ import Header from './Containers/Header';
 import Body from './Containers/Body';
 import Footer from './Containers/Footer';
 
-import logo from './logo.svg';
-
+// import logo from './logo.svg';
 // Styling
 import './App.css';
-
-
-
-import { DatePicker } from 'antd';
+import 'antd/dist/antd.min.css';
 
 function App() {
   return (
-    <div className="App">
+    // <div className="App">
+    <div>
       <Header/>
       <Body/>
       <Footer/>
