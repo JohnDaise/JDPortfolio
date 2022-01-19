@@ -3,7 +3,7 @@
 
 ## `About`
 
-Pic, Short Bio
+Pic, Short Bio, Resume (with download option?)
 
 ## `Projects`
 

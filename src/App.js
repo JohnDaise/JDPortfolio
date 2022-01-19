@@ -1,10 +1,25 @@
+// Components
+
+import Header from './Containers/Header';
+import Body from './Containers/Body';
+import Footer from './Containers/Footer';
+
 import logo from './logo.svg';
+
+// Styling
 import './App.css';
+
+
+
+import { DatePicker } from 'antd';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <Header/>
+      <Body/>
+      <Footer/>
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -17,7 +32,7 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
     </div>
   );
 }
