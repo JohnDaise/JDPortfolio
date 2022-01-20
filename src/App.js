@@ -11,8 +11,7 @@ import 'antd/dist/antd.min.css';
 
 function App() {
   return (
-    // <div className="App">
-    <div>
+    <div className="App">
       <Header/>
       <Body/>
       <Footer/>

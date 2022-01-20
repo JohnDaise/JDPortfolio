@@ -30,7 +30,7 @@ function Contact() {
                 <PhoneOutlined />
                 </a>
             </Col>
-        </Row>
+        </Row> <br/>
 
         {/* <Row justify="space-around">
             <Col span={12}>   

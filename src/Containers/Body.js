@@ -7,13 +7,11 @@ import Projects from '../Components/Projects';
 
 function Body() {
   return (
-    <div className="Body">
       <div className="App-body">
           <About/>
           <Projects />
           <Contact/>
       </div>
-    </div>
   );
 }
 
