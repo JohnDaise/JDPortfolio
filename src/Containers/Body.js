@@ -8,6 +8,7 @@ import Projects from '../Components/Projects';
 function Body() {
   return (
       <div className="App-body">
+          {/* TODO implement react router*/}
           <About/>
           <Projects />
           <Contact/>

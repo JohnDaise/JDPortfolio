@@ -19,6 +19,7 @@ function Projects() {
                           <h3>{project.title}</h3>
                           <div>
                             <img src={require(`./../Assets/images/${project.imageUrl}`)} /><br/>
+                            {/* style these a links so they are underlined and smaller/cleaner maybe use antd?*/}
                             <a href={project.deployedUrl} target="_blank" rel="noreferrer" >Deployed Site</a><br/>
                             <a href={project.github} target="_blank" rel="noreferrer">GitHub</a>
                           </div>
@@ -29,6 +30,7 @@ function Projects() {
                         <Col span={12}>
                           <h3>{project.title}</h3>
                           <div className='vimeo'>
+                            {/* style these iframes so they fit better with app images*/}
                             <iframe src={project.url} title={project.title} frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen ></iframe>
                           </div>
                         </Col>
