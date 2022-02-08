@@ -18,23 +18,23 @@ function Projects() {
                         <Col span={12}>
                           <h3>{project.title}</h3>
                           <div>
-                            <image src={project.image} />
-                            <a href={project.deployedUrl} target="_blank">{project.title} Deployed Site</a><br/>
-                            <a href={project.github} target="_blank">GitHub</a>
+                            <img src={require(`./../Assets/images/${project.imageUrl}`)} /><br/>
+                            <a href={project.deployedUrl} target="_blank" rel="noreferrer" >Deployed Site</a><br/>
+                            <a href={project.github} target="_blank" rel="noreferrer">GitHub</a>
                           </div>
                         </Col>
                         );
-                      break;
                     case "video":
                       return (
                         <Col span={12}>
                           <h3>{project.title}</h3>
                           <div className='vimeo'>
-                            <iframe src={project.url} frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen ></iframe>
+                            <iframe src={project.url} title={project.title} frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen ></iframe>
                           </div>
                         </Col>
                         );
-                      break;
+                    default:
+                      return null;
                   }
 
                 })

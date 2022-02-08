@@ -4,6 +4,7 @@ const projects = [
         "title":"Pokemon Search",
         "deployedUrl":"https://johndaise.github.io/coding-excercise/",
         "github":"https://github.com/JohnDaise/coding-excercise",
+        "imageUrl":"pokemon.png",
         "type": "app"
     },
     {

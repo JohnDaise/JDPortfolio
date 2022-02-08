@@ -55,6 +55,12 @@
   color: #61dafb;
 }
 
+img {
+  padding: 2.5% 0 0 0;
+  max-width: 60%;
+  max-height: 60%;
+}
+
 .vimeo {
   padding: 2.5% 0 0 0;
   position: relative;
